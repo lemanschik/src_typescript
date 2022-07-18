@@ -269,7 +269,7 @@ exports.x = 10;
 
 
 //// [/src/project/tsconfig.tsbuildinfo]
-{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true},"fileIdsList":[[2],[4]],"referencedMap":[[3,1],[5,2]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,[3,[{"file":"./filewithimports.ts","start":124,"length":6,"messageText":"Cannot find module 'pkg1' or its corresponding type declarations.","category":1,"code":2307}]],[5,[{"file":"./filewithtyperefs.ts","start":162,"length":17,"messageText":"Cannot find name 'RequireInterface3'.","category":1,"code":2304}]],8,2,4,6,7],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[10,11,12,13,14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"resolvedFileName":4,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[16],"affectingLocations":[17]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":8,"isExternalLibraryImport":true},"failedLookupLocations":[18]}],"names":["pkg0","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3]],"modules":[[9,[1]]],"typeRefs":[[9,[2,3]]]}},"version":"FakeTSVersion"}
+{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true,"moduleResolution":3},"fileIdsList":[[2],[4]],"referencedMap":[[3,1],[5,2]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,[3,[{"file":"./filewithimports.ts","start":124,"length":6,"messageText":"Cannot find module 'pkg1' or its corresponding type declarations.","category":1,"code":2307}]],[5,[{"file":"./filewithtyperefs.ts","start":162,"length":17,"messageText":"Cannot find name 'RequireInterface3'.","category":1,"code":2304}]],8,2,4,6,7],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[10,11,12,13,14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"resolvedFileName":4,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[16],"affectingLocations":[17]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":8,"isExternalLibraryImport":true},"failedLookupLocations":[18]}],"names":["pkg0","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3]],"modules":[[9,[1]]],"typeRefs":[[9,[2,3]]]}},"version":"FakeTSVersion"}
 
 //// [/src/project/tsconfig.tsbuildinfo.readable.baseline.txt]
 {
@@ -386,7 +386,8 @@ exports.x = 10;
     },
     "options": {
       "cacheResolutions": true,
-      "composite": true
+      "composite": true,
+      "moduleResolution": 3
     },
     "referencedMap": {
       "./filewithimports.ts": [
@@ -702,7 +703,7 @@ exports.x = 10;
     }
   },
   "version": "FakeTSVersion",
-  "size": 3434
+  "size": 3455
 }
 
 
@@ -716,22 +717,7 @@ Output::
 File '/src/project/package.json' does not exist.
 File '/src/package.json' does not exist.
 File '/package.json' does not exist.
-======== Resolving module 'pkg0' from '/src/project/fileWithImports.ts'. ========
-Explicitly specified module resolution kind: 'Node16'.
-Resolving in ESM mode with conditions 'node', 'import', 'types'.
-File '/src/project/package.json' does not exist according to earlier cached lookups.
-File '/src/package.json' does not exist according to earlier cached lookups.
-File '/package.json' does not exist according to earlier cached lookups.
-Loading module 'pkg0' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration.
-Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg0/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg0/import.ts' does not exist.
-File '/src/project/node_modules/pkg0/import.tsx' does not exist.
-File '/src/project/node_modules/pkg0/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg0/import.d.ts', result '/src/project/node_modules/pkg0/import.d.ts'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
+Reusing resolution of module 'pkg0' from '/src/project/fileWithImports.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 ======== Resolving module 'pkg1' from '/src/project/fileWithImports.ts'. ========
 Explicitly specified module resolution kind: 'Node16'.
 Resolving in CJS mode with conditions 'node', 'require', 'types'.
@@ -760,20 +746,11 @@ File '/src/project/node_modules/pkg1/require.jsx' does not exist.
 Directory '/src/node_modules' does not exist, skipping all lookups in it.
 Directory '/node_modules' does not exist, skipping all lookups in it.
 ======== Module name 'pkg1' was not resolved. ========
-File '/src/project/node_modules/pkg0/package.json' exists according to earlier cached lookups.
+Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
-Looking up in 'node_modules' folder, initial location '/src/project'.
-Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg2/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg2/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg2/import.d.ts', result '/src/project/node_modules/pkg2/import.d.ts'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
+Reusing resolution of type reference directive 'pkg2' from '/src/project/fileWithTypeRefs.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
 ======== Resolving type reference directive 'pkg3', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
 Resolving with primary search path '/src/project/node_modules/@types'.
 Looking up in 'node_modules' folder, initial location '/src/project'.
@@ -787,20 +764,15 @@ File '/src/project/node_modules/@types/pkg3.d.ts' does not exist.
 Directory '/src/node_modules' does not exist, skipping all lookups in it.
 Directory '/node_modules' does not exist, skipping all lookups in it.
 ======== Type reference directive 'pkg3' was not resolved. ========
-File '/src/project/node_modules/pkg2/package.json' exists according to earlier cached lookups.
+Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg4', containing file '/src/project/__inferred type names__.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
+Reusing resolution of type reference directive 'pkg4' from '/src/project/__inferred type names__.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts'.
 File '/src/project/node_modules/@types/pkg4/package.json' does not exist.
-File '/src/project/node_modules/@types/pkg4/index.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/@types/pkg4/index.d.ts', result '/src/project/node_modules/@types/pkg4/index.d.ts'.
-======== Type reference directive 'pkg4' was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts', primary: true. ========
-File '/src/project/node_modules/@types/pkg4/package.json' does not exist according to earlier cached lookups.
 File '/src/project/node_modules/@types/package.json' does not exist.
 File '/src/project/node_modules/package.json' does not exist.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
@@ -870,22 +842,7 @@ Output::
 File '/src/project/package.json' does not exist.
 File '/src/package.json' does not exist.
 File '/package.json' does not exist.
-======== Resolving module 'pkg0' from '/src/project/fileWithImports.ts'. ========
-Explicitly specified module resolution kind: 'Node16'.
-Resolving in ESM mode with conditions 'node', 'import', 'types'.
-File '/src/project/package.json' does not exist according to earlier cached lookups.
-File '/src/package.json' does not exist according to earlier cached lookups.
-File '/package.json' does not exist according to earlier cached lookups.
-Loading module 'pkg0' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration.
-Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg0/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg0/import.ts' does not exist.
-File '/src/project/node_modules/pkg0/import.tsx' does not exist.
-File '/src/project/node_modules/pkg0/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg0/import.d.ts', result '/src/project/node_modules/pkg0/import.d.ts'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
+Reusing resolution of module 'pkg0' from '/src/project/fileWithImports.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 ======== Resolving module 'pkg1' from '/src/project/fileWithImports.ts'. ========
 Explicitly specified module resolution kind: 'Node16'.
 Resolving in CJS mode with conditions 'node', 'require', 'types'.
@@ -914,20 +871,11 @@ File '/src/project/node_modules/pkg1/require.jsx' does not exist.
 Directory '/src/node_modules' does not exist, skipping all lookups in it.
 Directory '/node_modules' does not exist, skipping all lookups in it.
 ======== Module name 'pkg1' was not resolved. ========
-File '/src/project/node_modules/pkg0/package.json' exists according to earlier cached lookups.
+Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
-Looking up in 'node_modules' folder, initial location '/src/project'.
-Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg2/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg2/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg2/import.d.ts', result '/src/project/node_modules/pkg2/import.d.ts'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
+Reusing resolution of type reference directive 'pkg2' from '/src/project/fileWithTypeRefs.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
 ======== Resolving type reference directive 'pkg3', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
 Resolving with primary search path '/src/project/node_modules/@types'.
 Looking up in 'node_modules' folder, initial location '/src/project'.
@@ -941,23 +889,16 @@ File '/src/project/node_modules/@types/pkg3.d.ts' does not exist.
 Directory '/src/node_modules' does not exist, skipping all lookups in it.
 Directory '/node_modules' does not exist, skipping all lookups in it.
 ======== Type reference directive 'pkg3' was not resolved. ========
-File '/src/project/node_modules/pkg2/package.json' exists according to earlier cached lookups.
+Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving module 'pkg0' from '/src/project/randomFileForImport.ts'. ========
-Resolution for module 'pkg0' was found in cache from location '/src/project'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
+Reusing resolution of module 'pkg0' from '/src/project/randomFileForImport.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg4', containing file '/src/project/__inferred type names__.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
+Reusing resolution of type reference directive 'pkg4' from '/src/project/__inferred type names__.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts'.
 File '/src/project/node_modules/@types/pkg4/package.json' does not exist.
-File '/src/project/node_modules/@types/pkg4/index.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/@types/pkg4/index.d.ts', result '/src/project/node_modules/@types/pkg4/index.d.ts'.
-======== Type reference directive 'pkg4' was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts', primary: true. ========
-File '/src/project/node_modules/@types/pkg4/package.json' does not exist according to earlier cached lookups.
 File '/src/project/node_modules/@types/package.json' does not exist.
 File '/src/project/node_modules/package.json' does not exist.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
@@ -1015,7 +956,7 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
 
 //// [/src/project/randomFileForImport.js] file written with same contents
 //// [/src/project/tsconfig.tsbuildinfo]
-{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true},"fileIdsList":[[2],[4]],"referencedMap":[[3,1],[5,2],[6,1]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,[3,[{"file":"./filewithimports.ts","start":124,"length":6,"messageText":"Cannot find module 'pkg1' or its corresponding type declarations.","category":1,"code":2307}]],[5,[{"file":"./filewithtyperefs.ts","start":162,"length":17,"messageText":"Cannot find name 'RequireInterface3'.","category":1,"code":2304}]],8,2,4,6,7],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[10,11,12,13,14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"resolvedFileName":4,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[16],"affectingLocations":[17]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":8,"isExternalLibraryImport":true},"failedLookupLocations":[18]}],"names":["pkg0","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3]],"modules":[[9,[1]]],"typeRefs":[[9,[2,3]]]}},"version":"FakeTSVersion"}
+{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true,"moduleResolution":3},"fileIdsList":[[2],[4]],"referencedMap":[[3,1],[5,2],[6,1]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,[3,[{"file":"./filewithimports.ts","start":124,"length":6,"messageText":"Cannot find module 'pkg1' or its corresponding type declarations.","category":1,"code":2307}]],[5,[{"file":"./filewithtyperefs.ts","start":162,"length":17,"messageText":"Cannot find name 'RequireInterface3'.","category":1,"code":2304}]],8,2,4,6,7],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[10,11,12,13,14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"resolvedFileName":4,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[16],"affectingLocations":[17]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":8,"isExternalLibraryImport":true},"failedLookupLocations":[18]}],"names":["pkg0","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3]],"modules":[[9,[1]]],"typeRefs":[[9,[2,3]]]}},"version":"FakeTSVersion"}
 
 //// [/src/project/tsconfig.tsbuildinfo.readable.baseline.txt]
 {
@@ -1132,7 +1073,8 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
     },
     "options": {
       "cacheResolutions": true,
-      "composite": true
+      "composite": true,
+      "moduleResolution": 3
     },
     "referencedMap": {
       "./filewithimports.ts": [
@@ -1451,7 +1393,7 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
     }
   },
   "version": "FakeTSVersion",
-  "size": 3531
+  "size": 3552
 }
 
 
@@ -1469,22 +1411,7 @@ Output::
 File '/src/project/package.json' does not exist.
 File '/src/package.json' does not exist.
 File '/package.json' does not exist.
-======== Resolving module 'pkg0' from '/src/project/fileWithImports.ts'. ========
-Explicitly specified module resolution kind: 'Node16'.
-Resolving in ESM mode with conditions 'node', 'import', 'types'.
-File '/src/project/package.json' does not exist according to earlier cached lookups.
-File '/src/package.json' does not exist according to earlier cached lookups.
-File '/package.json' does not exist according to earlier cached lookups.
-Loading module 'pkg0' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration.
-Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg0/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg0/import.ts' does not exist.
-File '/src/project/node_modules/pkg0/import.tsx' does not exist.
-File '/src/project/node_modules/pkg0/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg0/import.d.ts', result '/src/project/node_modules/pkg0/import.d.ts'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
+Reusing resolution of module 'pkg0' from '/src/project/fileWithImports.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 ======== Resolving module 'pkg1' from '/src/project/fileWithImports.ts'. ========
 Explicitly specified module resolution kind: 'Node16'.
 Resolving in CJS mode with conditions 'node', 'require', 'types'.
@@ -1513,20 +1440,11 @@ File '/src/project/node_modules/pkg1/require.jsx' does not exist.
 Directory '/src/node_modules' does not exist, skipping all lookups in it.
 Directory '/node_modules' does not exist, skipping all lookups in it.
 ======== Module name 'pkg1' was not resolved. ========
-File '/src/project/node_modules/pkg0/package.json' exists according to earlier cached lookups.
+Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
-Looking up in 'node_modules' folder, initial location '/src/project'.
-Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg2/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg2/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg2/import.d.ts', result '/src/project/node_modules/pkg2/import.d.ts'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
+Reusing resolution of type reference directive 'pkg2' from '/src/project/fileWithTypeRefs.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
 ======== Resolving type reference directive 'pkg3', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
 Resolving with primary search path '/src/project/node_modules/@types'.
 Looking up in 'node_modules' folder, initial location '/src/project'.
@@ -1540,26 +1458,17 @@ File '/src/project/node_modules/@types/pkg3.d.ts' does not exist.
 Directory '/src/node_modules' does not exist, skipping all lookups in it.
 Directory '/node_modules' does not exist, skipping all lookups in it.
 ======== Type reference directive 'pkg3' was not resolved. ========
-File '/src/project/node_modules/pkg2/package.json' exists according to earlier cached lookups.
+Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving module 'pkg0' from '/src/project/randomFileForImport.ts'. ========
-Resolution for module 'pkg0' was found in cache from location '/src/project'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
+Reusing resolution of module 'pkg0' from '/src/project/randomFileForImport.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/randomFileForTypeRef.ts'. ========
-Resolution for type reference directive 'pkg2' was found in cache from location '/src/project'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
-======== Resolving type reference directive 'pkg4', containing file '/src/project/__inferred type names__.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
+Reusing resolution of type reference directive 'pkg2' from '/src/project/randomFileForTypeRef.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
+Reusing resolution of type reference directive 'pkg4' from '/src/project/__inferred type names__.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts'.
 File '/src/project/node_modules/@types/pkg4/package.json' does not exist.
-File '/src/project/node_modules/@types/pkg4/index.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/@types/pkg4/index.d.ts', result '/src/project/node_modules/@types/pkg4/index.d.ts'.
-======== Type reference directive 'pkg4' was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts', primary: true. ========
-File '/src/project/node_modules/@types/pkg4/package.json' does not exist according to earlier cached lookups.
 File '/src/project/node_modules/@types/package.json' does not exist.
 File '/src/project/node_modules/package.json' does not exist.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
@@ -1624,7 +1533,7 @@ exports.x = 10;
 
 
 //// [/src/project/tsconfig.tsbuildinfo]
-{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true},"fileIdsList":[[2],[4]],"referencedMap":[[3,1],[5,2],[6,1],[7,2]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,[3,[{"file":"./filewithimports.ts","start":124,"length":6,"messageText":"Cannot find module 'pkg1' or its corresponding type declarations.","category":1,"code":2307}]],[5,[{"file":"./filewithtyperefs.ts","start":162,"length":17,"messageText":"Cannot find name 'RequireInterface3'.","category":1,"code":2304}]],8,2,4,6,7],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[10,11,12,13,14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"resolvedFileName":4,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[16],"affectingLocations":[17]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":8,"isExternalLibraryImport":true},"failedLookupLocations":[18]}],"names":["pkg0","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3]],"modules":[[9,[1]]],"typeRefs":[[9,[2,3]]]}},"version":"FakeTSVersion"}
+{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true,"moduleResolution":3},"fileIdsList":[[2],[4]],"referencedMap":[[3,1],[5,2],[6,1],[7,2]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,[3,[{"file":"./filewithimports.ts","start":124,"length":6,"messageText":"Cannot find module 'pkg1' or its corresponding type declarations.","category":1,"code":2307}]],[5,[{"file":"./filewithtyperefs.ts","start":162,"length":17,"messageText":"Cannot find name 'RequireInterface3'.","category":1,"code":2304}]],8,2,4,6,7],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[10,11,12,13,14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"resolvedFileName":4,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[16],"affectingLocations":[17]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":8,"isExternalLibraryImport":true},"failedLookupLocations":[18]}],"names":["pkg0","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3]],"modules":[[9,[1]]],"typeRefs":[[9,[2,3]]]}},"version":"FakeTSVersion"}
 
 //// [/src/project/tsconfig.tsbuildinfo.readable.baseline.txt]
 {
@@ -1741,7 +1650,8 @@ exports.x = 10;
     },
     "options": {
       "cacheResolutions": true,
-      "composite": true
+      "composite": true,
+      "moduleResolution": 3
     },
     "referencedMap": {
       "./filewithimports.ts": [
@@ -2063,7 +1973,7 @@ exports.x = 10;
     }
   },
   "version": "FakeTSVersion",
-  "size": 3596
+  "size": 3617
 }
 
 
@@ -2080,22 +1990,7 @@ Output::
 File '/src/project/package.json' does not exist.
 File '/src/package.json' does not exist.
 File '/package.json' does not exist.
-======== Resolving module 'pkg0' from '/src/project/fileWithImports.ts'. ========
-Explicitly specified module resolution kind: 'Node16'.
-Resolving in ESM mode with conditions 'node', 'import', 'types'.
-File '/src/project/package.json' does not exist according to earlier cached lookups.
-File '/src/package.json' does not exist according to earlier cached lookups.
-File '/package.json' does not exist according to earlier cached lookups.
-Loading module 'pkg0' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration.
-Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg0/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg0/import.ts' does not exist.
-File '/src/project/node_modules/pkg0/import.tsx' does not exist.
-File '/src/project/node_modules/pkg0/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg0/import.d.ts', result '/src/project/node_modules/pkg0/import.d.ts'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
+Reusing resolution of module 'pkg0' from '/src/project/fileWithImports.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 ======== Resolving module 'pkg1' from '/src/project/fileWithImports.ts'. ========
 Explicitly specified module resolution kind: 'Node16'.
 Resolving in CJS mode with conditions 'node', 'require', 'types'.
@@ -2113,21 +2008,12 @@ File '/src/project/node_modules/pkg1/require.tsx' does not exist.
 File '/src/project/node_modules/pkg1/require.d.ts' exist - use it as a name resolution result.
 Resolving real path for '/src/project/node_modules/pkg1/require.d.ts', result '/src/project/node_modules/pkg1/require.d.ts'.
 ======== Module name 'pkg1' was successfully resolved to '/src/project/node_modules/pkg1/require.d.ts' with Package ID 'pkg1/require.d.ts@0.0.1'. ========
-File '/src/project/node_modules/pkg0/package.json' exists according to earlier cached lookups.
+Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
 File '/src/project/node_modules/pkg1/package.json' exists according to earlier cached lookups.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
-Looking up in 'node_modules' folder, initial location '/src/project'.
-Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg2/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg2/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg2/import.d.ts', result '/src/project/node_modules/pkg2/import.d.ts'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
+Reusing resolution of type reference directive 'pkg2' from '/src/project/fileWithTypeRefs.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
 ======== Resolving type reference directive 'pkg3', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
 Resolving with primary search path '/src/project/node_modules/@types'.
 Looking up in 'node_modules' folder, initial location '/src/project'.
@@ -2141,26 +2027,17 @@ File '/src/project/node_modules/@types/pkg3.d.ts' does not exist.
 Directory '/src/node_modules' does not exist, skipping all lookups in it.
 Directory '/node_modules' does not exist, skipping all lookups in it.
 ======== Type reference directive 'pkg3' was not resolved. ========
-File '/src/project/node_modules/pkg2/package.json' exists according to earlier cached lookups.
+Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving module 'pkg0' from '/src/project/randomFileForImport.ts'. ========
-Resolution for module 'pkg0' was found in cache from location '/src/project'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
+Reusing resolution of module 'pkg0' from '/src/project/randomFileForImport.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/randomFileForTypeRef.ts'. ========
-Resolution for type reference directive 'pkg2' was found in cache from location '/src/project'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
-======== Resolving type reference directive 'pkg4', containing file '/src/project/__inferred type names__.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
+Reusing resolution of type reference directive 'pkg2' from '/src/project/randomFileForTypeRef.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
+Reusing resolution of type reference directive 'pkg4' from '/src/project/__inferred type names__.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts'.
 File '/src/project/node_modules/@types/pkg4/package.json' does not exist.
-File '/src/project/node_modules/@types/pkg4/index.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/@types/pkg4/index.d.ts', result '/src/project/node_modules/@types/pkg4/index.d.ts'.
-======== Type reference directive 'pkg4' was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts', primary: true. ========
-File '/src/project/node_modules/@types/pkg4/package.json' does not exist according to earlier cached lookups.
 File '/src/project/node_modules/@types/package.json' does not exist.
 File '/src/project/node_modules/package.json' does not exist.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
@@ -2213,7 +2090,7 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
 
 //// [/src/project/fileWithImports.js] file written with same contents
 //// [/src/project/tsconfig.tsbuildinfo]
-{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./node_modules/pkg1/require.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/pkg1/require.ts","./node_modules/pkg1/require.tsx","./node_modules/pkg1/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"-3547817137-export interface RequireInterface1 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true},"fileIdsList":[[2,3],[5],[2]],"referencedMap":[[4,1],[6,2],[7,3],[8,2]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,4,[6,[{"file":"./filewithtyperefs.ts","start":162,"length":17,"messageText":"Cannot find name 'RequireInterface3'.","category":1,"code":2304}]],9,2,3,5,7,8],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[11,12,13,14,15],"affectingLocations":[16]},{"resolvedModule":{"resolvedFileName":3,"isExternalLibraryImport":true,"packageId":{"name":"pkg1","subModuleName":"require.d.ts","version":"0.0.1"}},"failedLookupLocations":[11,12,13,17,18],"affectingLocations":[19]},{"resolvedTypeReferenceDirective":{"resolvedFileName":5,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[20],"affectingLocations":[21]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":9,"isExternalLibraryImport":true},"failedLookupLocations":[22]}],"names":["pkg0","pkg1","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,1],[3,3,99],[4,4]],"modules":[[10,[1,2]]],"typeRefs":[[10,[3,4]]]}},"version":"FakeTSVersion"}
+{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./node_modules/pkg1/require.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/pkg1/require.ts","./node_modules/pkg1/require.tsx","./node_modules/pkg1/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"-3547817137-export interface RequireInterface1 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true,"moduleResolution":3},"fileIdsList":[[2,3],[5],[2]],"referencedMap":[[4,1],[6,2],[7,3],[8,2]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,4,[6,[{"file":"./filewithtyperefs.ts","start":162,"length":17,"messageText":"Cannot find name 'RequireInterface3'.","category":1,"code":2304}]],9,2,3,5,7,8],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[11,12,13,14,15],"affectingLocations":[16]},{"resolvedModule":{"resolvedFileName":3,"isExternalLibraryImport":true,"packageId":{"name":"pkg1","subModuleName":"require.d.ts","version":"0.0.1"}},"failedLookupLocations":[11,12,13,17,18],"affectingLocations":[19]},{"resolvedTypeReferenceDirective":{"resolvedFileName":5,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[20],"affectingLocations":[21]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":9,"isExternalLibraryImport":true},"failedLookupLocations":[22]}],"names":["pkg0","pkg1","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,1],[3,3,99],[4,4]],"modules":[[10,[1,2]]],"typeRefs":[[10,[3,4]]]}},"version":"FakeTSVersion"}
 
 //// [/src/project/tsconfig.tsbuildinfo.readable.baseline.txt]
 {
@@ -2347,7 +2224,8 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
     },
     "options": {
       "cacheResolutions": true,
-      "composite": true
+      "composite": true,
+      "moduleResolution": 3
     },
     "referencedMap": {
       "./filewithimports.ts": [
@@ -2762,7 +2640,7 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
     }
   },
   "version": "FakeTSVersion",
-  "size": 3893
+  "size": 3914
 }
 
 
@@ -2783,54 +2661,14 @@ Output::
 File '/src/project/package.json' does not exist.
 File '/src/package.json' does not exist.
 File '/package.json' does not exist.
-======== Resolving module 'pkg0' from '/src/project/fileWithImports.ts'. ========
-Explicitly specified module resolution kind: 'Node16'.
-Resolving in ESM mode with conditions 'node', 'import', 'types'.
-File '/src/project/package.json' does not exist according to earlier cached lookups.
-File '/src/package.json' does not exist according to earlier cached lookups.
-File '/package.json' does not exist according to earlier cached lookups.
-Loading module 'pkg0' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration.
+Reusing resolution of module 'pkg0' from '/src/project/fileWithImports.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
+Reusing resolution of module 'pkg1' from '/src/project/fileWithImports.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg1/require.d.ts' with Package ID 'pkg1/require.d.ts@0.0.1'.
 Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg0/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg0/import.ts' does not exist.
-File '/src/project/node_modules/pkg0/import.tsx' does not exist.
-File '/src/project/node_modules/pkg0/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg0/import.d.ts', result '/src/project/node_modules/pkg0/import.d.ts'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
-======== Resolving module 'pkg1' from '/src/project/fileWithImports.ts'. ========
-Explicitly specified module resolution kind: 'Node16'.
-Resolving in CJS mode with conditions 'node', 'require', 'types'.
-File '/src/project/package.json' does not exist according to earlier cached lookups.
-File '/src/package.json' does not exist according to earlier cached lookups.
-File '/package.json' does not exist according to earlier cached lookups.
-Loading module 'pkg1' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration.
 Found 'package.json' at '/src/project/node_modules/pkg1/package.json'.
-Saw non-matching condition 'import'.
-Matched 'exports' condition 'require'.
-Using 'exports' subpath '.' with target './require.js'.
-File name '/src/project/node_modules/pkg1/require.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg1/require.ts' does not exist.
-File '/src/project/node_modules/pkg1/require.tsx' does not exist.
-File '/src/project/node_modules/pkg1/require.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg1/require.d.ts', result '/src/project/node_modules/pkg1/require.d.ts'.
-======== Module name 'pkg1' was successfully resolved to '/src/project/node_modules/pkg1/require.d.ts' with Package ID 'pkg1/require.d.ts@0.0.1'. ========
-File '/src/project/node_modules/pkg0/package.json' exists according to earlier cached lookups.
-File '/src/project/node_modules/pkg1/package.json' exists according to earlier cached lookups.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
-Looking up in 'node_modules' folder, initial location '/src/project'.
-Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg2/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg2/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg2/import.d.ts', result '/src/project/node_modules/pkg2/import.d.ts'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
+Reusing resolution of type reference directive 'pkg2' from '/src/project/fileWithTypeRefs.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
 ======== Resolving type reference directive 'pkg3', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
 Resolving with primary search path '/src/project/node_modules/@types'.
 Looking up in 'node_modules' folder, initial location '/src/project'.
@@ -2842,27 +2680,18 @@ File name '/src/project/node_modules/pkg3/require.js' has a '.js' extension - st
 File '/src/project/node_modules/pkg3/require.d.ts' exist - use it as a name resolution result.
 Resolving real path for '/src/project/node_modules/pkg3/require.d.ts', result '/src/project/node_modules/pkg3/require.d.ts'.
 ======== Type reference directive 'pkg3' was successfully resolved to '/src/project/node_modules/pkg3/require.d.ts' with Package ID 'pkg3/require.d.ts@0.0.1', primary: false. ========
-File '/src/project/node_modules/pkg2/package.json' exists according to earlier cached lookups.
+Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
 File '/src/project/node_modules/pkg3/package.json' exists according to earlier cached lookups.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving module 'pkg0' from '/src/project/randomFileForImport.ts'. ========
-Resolution for module 'pkg0' was found in cache from location '/src/project'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
+Reusing resolution of module 'pkg0' from '/src/project/randomFileForImport.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/randomFileForTypeRef.ts'. ========
-Resolution for type reference directive 'pkg2' was found in cache from location '/src/project'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
-======== Resolving type reference directive 'pkg4', containing file '/src/project/__inferred type names__.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
+Reusing resolution of type reference directive 'pkg2' from '/src/project/randomFileForTypeRef.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
+Reusing resolution of type reference directive 'pkg4' from '/src/project/__inferred type names__.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts'.
 File '/src/project/node_modules/@types/pkg4/package.json' does not exist.
-File '/src/project/node_modules/@types/pkg4/index.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/@types/pkg4/index.d.ts', result '/src/project/node_modules/@types/pkg4/index.d.ts'.
-======== Type reference directive 'pkg4' was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts', primary: true. ========
-File '/src/project/node_modules/@types/pkg4/package.json' does not exist according to earlier cached lookups.
 File '/src/project/node_modules/@types/package.json' does not exist.
 File '/src/project/node_modules/package.json' does not exist.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
@@ -2908,7 +2737,7 @@ exitCode:: ExitStatus.Success
 //// [/src/project/randomFileForImport.js] file written with same contents
 //// [/src/project/randomFileForTypeRef.js] file written with same contents
 //// [/src/project/tsconfig.tsbuildinfo]
-{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./node_modules/pkg1/require.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./node_modules/pkg3/require.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/pkg1/require.ts","./node_modules/pkg1/require.tsx","./node_modules/pkg1/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg3/package.json","./node_modules/@types/pkg3/index.d.ts","./node_modules/pkg3/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"-3547817137-export interface RequireInterface1 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-6568745979-export {};\ndeclare global {\n    interface RequireInterface3 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true},"fileIdsList":[[2,3],[5,6],[2],[5]],"referencedMap":[[4,1],[7,2],[8,3],[9,4]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,4,7,10,2,3,5,6,8,9],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[12,13,14,15,16],"affectingLocations":[17]},{"resolvedModule":{"resolvedFileName":3,"isExternalLibraryImport":true,"packageId":{"name":"pkg1","subModuleName":"require.d.ts","version":"0.0.1"}},"failedLookupLocations":[12,13,14,18,19],"affectingLocations":[20]},{"resolvedTypeReferenceDirective":{"resolvedFileName":5,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[21],"affectingLocations":[22]},{"resolvedTypeReferenceDirective":{"resolvedFileName":6,"packageId":{"name":"pkg3","subModuleName":"require.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[23,24],"affectingLocations":[25]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":10,"isExternalLibraryImport":true},"failedLookupLocations":[26]}],"names":["pkg0","pkg1","pkg2","pkg3","pkg4"],"resolutionEntries":[[1,1,99],[2,2,1],[3,3,99],[4,4,1],[5,5]],"modules":[[11,[1,2]]],"typeRefs":[[11,[3,4,5]]]}},"version":"FakeTSVersion"}
+{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./node_modules/pkg1/require.d.ts","./filewithimports.ts","./node_modules/pkg2/import.d.ts","./node_modules/pkg3/require.d.ts","./filewithtyperefs.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/pkg1/require.ts","./node_modules/pkg1/require.tsx","./node_modules/pkg1/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg3/package.json","./node_modules/@types/pkg3/index.d.ts","./node_modules/pkg3/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"-3547817137-export interface RequireInterface1 {}","impliedFormat":1},{"version":"4079531109-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nimport type { RequireInterface1 } from \"pkg1\" assert { \"resolution-mode\": \"require\" };\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-6568745979-export {};\ndeclare global {\n    interface RequireInterface3 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true,"moduleResolution":3},"fileIdsList":[[2,3],[5,6],[2],[5]],"referencedMap":[[4,1],[7,2],[8,3],[9,4]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,4,7,10,2,3,5,6,8,9],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[12,13,14,15,16],"affectingLocations":[17]},{"resolvedModule":{"resolvedFileName":3,"isExternalLibraryImport":true,"packageId":{"name":"pkg1","subModuleName":"require.d.ts","version":"0.0.1"}},"failedLookupLocations":[12,13,14,18,19],"affectingLocations":[20]},{"resolvedTypeReferenceDirective":{"resolvedFileName":5,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[21],"affectingLocations":[22]},{"resolvedTypeReferenceDirective":{"resolvedFileName":6,"packageId":{"name":"pkg3","subModuleName":"require.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[23,24],"affectingLocations":[25]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":10,"isExternalLibraryImport":true},"failedLookupLocations":[26]}],"names":["pkg0","pkg1","pkg2","pkg3","pkg4"],"resolutionEntries":[[1,1,99],[2,2,1],[3,3,99],[4,4,1],[5,5]],"modules":[[11,[1,2]]],"typeRefs":[[11,[3,4,5]]]}},"version":"FakeTSVersion"}
 
 //// [/src/project/tsconfig.tsbuildinfo.readable.baseline.txt]
 {
@@ -3061,7 +2890,8 @@ exitCode:: ExitStatus.Success
     },
     "options": {
       "cacheResolutions": true,
-      "composite": true
+      "composite": true,
+      "moduleResolution": 3
     },
     "referencedMap": {
       "./filewithimports.ts": [
@@ -3557,7 +3387,7 @@ exitCode:: ExitStatus.Success
     }
   },
   "version": "FakeTSVersion",
-  "size": 4296
+  "size": 4317
 }
 
 
@@ -3572,62 +3402,21 @@ Output::
 File '/src/project/package.json' does not exist.
 File '/src/package.json' does not exist.
 File '/package.json' does not exist.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
-Looking up in 'node_modules' folder, initial location '/src/project'.
+Reusing resolution of type reference directive 'pkg2' from '/src/project/fileWithTypeRefs.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
+Reusing resolution of type reference directive 'pkg3' from '/src/project/fileWithTypeRefs.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg3/require.d.ts' with Package ID 'pkg3/require.d.ts@0.0.1'.
 Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg2/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg2/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg2/import.d.ts', result '/src/project/node_modules/pkg2/import.d.ts'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
-======== Resolving type reference directive 'pkg3', containing file '/src/project/fileWithTypeRefs.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
-Looking up in 'node_modules' folder, initial location '/src/project'.
 Found 'package.json' at '/src/project/node_modules/pkg3/package.json'.
-Saw non-matching condition 'import'.
-Matched 'exports' condition 'require'.
-Using 'exports' subpath '.' with target './require.js'.
-File name '/src/project/node_modules/pkg3/require.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg3/require.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg3/require.d.ts', result '/src/project/node_modules/pkg3/require.d.ts'.
-======== Type reference directive 'pkg3' was successfully resolved to '/src/project/node_modules/pkg3/require.d.ts' with Package ID 'pkg3/require.d.ts@0.0.1', primary: false. ========
-File '/src/project/node_modules/pkg2/package.json' exists according to earlier cached lookups.
-File '/src/project/node_modules/pkg3/package.json' exists according to earlier cached lookups.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving module 'pkg0' from '/src/project/randomFileForImport.ts'. ========
-Explicitly specified module resolution kind: 'Node16'.
-Resolving in ESM mode with conditions 'node', 'import', 'types'.
-File '/src/project/package.json' does not exist according to earlier cached lookups.
-File '/src/package.json' does not exist according to earlier cached lookups.
-File '/package.json' does not exist according to earlier cached lookups.
-Loading module 'pkg0' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration.
+Reusing resolution of module 'pkg0' from '/src/project/randomFileForImport.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg0/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg0/import.ts' does not exist.
-File '/src/project/node_modules/pkg0/import.tsx' does not exist.
-File '/src/project/node_modules/pkg0/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg0/import.d.ts', result '/src/project/node_modules/pkg0/import.d.ts'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
-File '/src/project/node_modules/pkg0/package.json' exists according to earlier cached lookups.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/randomFileForTypeRef.ts'. ========
-Resolution for type reference directive 'pkg2' was found in cache from location '/src/project'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
-======== Resolving type reference directive 'pkg4', containing file '/src/project/__inferred type names__.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
+Reusing resolution of type reference directive 'pkg2' from '/src/project/randomFileForTypeRef.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
+Reusing resolution of type reference directive 'pkg4' from '/src/project/__inferred type names__.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts'.
 File '/src/project/node_modules/@types/pkg4/package.json' does not exist.
-File '/src/project/node_modules/@types/pkg4/index.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/@types/pkg4/index.d.ts', result '/src/project/node_modules/@types/pkg4/index.d.ts'.
-======== Type reference directive 'pkg4' was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts', primary: true. ========
-File '/src/project/node_modules/@types/pkg4/package.json' does not exist according to earlier cached lookups.
 File '/src/project/node_modules/@types/package.json' does not exist.
 File '/src/project/node_modules/package.json' does not exist.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
@@ -3662,7 +3451,7 @@ exitCode:: ExitStatus.Success
 
 
 //// [/src/project/tsconfig.tsbuildinfo]
-{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg2/import.d.ts","./node_modules/pkg3/require.d.ts","./filewithtyperefs.ts","./node_modules/pkg0/import.d.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg3/package.json","./node_modules/@types/pkg3/index.d.ts","./node_modules/pkg3/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-6568745979-export {};\ndeclare global {\n    interface RequireInterface3 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true},"fileIdsList":[[2,3],[5],[2]],"referencedMap":[[4,1],[6,2],[7,3]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,4,8,5,2,3,6,7],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":5,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[10,11,12,13,14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"resolvedFileName":2,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[16],"affectingLocations":[17]},{"resolvedTypeReferenceDirective":{"resolvedFileName":3,"packageId":{"name":"pkg3","subModuleName":"require.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[18,19],"affectingLocations":[20]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":8,"isExternalLibraryImport":true},"failedLookupLocations":[21]}],"names":["pkg0","pkg2","pkg3","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3,1],[4,4]],"modules":[[9,[1]]],"typeRefs":[[9,[2,3,4]]]}},"version":"FakeTSVersion"}
+{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg2/import.d.ts","./node_modules/pkg3/require.d.ts","./filewithtyperefs.ts","./node_modules/pkg0/import.d.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg3/package.json","./node_modules/@types/pkg3/index.d.ts","./node_modules/pkg3/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-6568745979-export {};\ndeclare global {\n    interface RequireInterface3 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-20622778057-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\n/// <reference types=\"pkg3\" resolution-mode=\"require\"/>\ninterface LocalInterface extends ImportInterface2, RequireInterface3 {}\nexport {}\n","signature":"-4882119183-export {};\r\n","impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true,"moduleResolution":3},"fileIdsList":[[2,3],[5],[2]],"referencedMap":[[4,1],[6,2],[7,3]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,4,8,5,2,3,6,7],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":5,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[10,11,12,13,14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"resolvedFileName":2,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[16],"affectingLocations":[17]},{"resolvedTypeReferenceDirective":{"resolvedFileName":3,"packageId":{"name":"pkg3","subModuleName":"require.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[18,19],"affectingLocations":[20]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":8,"isExternalLibraryImport":true},"failedLookupLocations":[21]}],"names":["pkg0","pkg2","pkg3","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3,1],[4,4]],"modules":[[9,[1]]],"typeRefs":[[9,[2,3,4]]]}},"version":"FakeTSVersion"}
 
 //// [/src/project/tsconfig.tsbuildinfo.readable.baseline.txt]
 {
@@ -3787,7 +3576,8 @@ exitCode:: ExitStatus.Success
     },
     "options": {
       "cacheResolutions": true,
-      "composite": true
+      "composite": true,
+      "moduleResolution": 3
     },
     "referencedMap": {
       "./filewithtyperefs.ts": [
@@ -4174,7 +3964,7 @@ exitCode:: ExitStatus.Success
     }
   },
   "version": "FakeTSVersion",
-  "size": 3529
+  "size": 3550
 }
 
 
@@ -4189,44 +3979,15 @@ Output::
 File '/src/project/package.json' does not exist.
 File '/src/package.json' does not exist.
 File '/package.json' does not exist.
-======== Resolving module 'pkg0' from '/src/project/randomFileForImport.ts'. ========
-Explicitly specified module resolution kind: 'Node16'.
-Resolving in ESM mode with conditions 'node', 'import', 'types'.
-File '/src/project/package.json' does not exist according to earlier cached lookups.
-File '/src/package.json' does not exist according to earlier cached lookups.
-File '/package.json' does not exist according to earlier cached lookups.
-Loading module 'pkg0' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration.
+Reusing resolution of module 'pkg0' from '/src/project/randomFileForImport.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'.
 Found 'package.json' at '/src/project/node_modules/pkg0/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg0/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg0/import.ts' does not exist.
-File '/src/project/node_modules/pkg0/import.tsx' does not exist.
-File '/src/project/node_modules/pkg0/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg0/import.d.ts', result '/src/project/node_modules/pkg0/import.d.ts'.
-======== Module name 'pkg0' was successfully resolved to '/src/project/node_modules/pkg0/import.d.ts' with Package ID 'pkg0/import.d.ts@0.0.1'. ========
-File '/src/project/node_modules/pkg0/package.json' exists according to earlier cached lookups.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/randomFileForTypeRef.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
-Looking up in 'node_modules' folder, initial location '/src/project'.
+Reusing resolution of type reference directive 'pkg2' from '/src/project/randomFileForTypeRef.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
 Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg2/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg2/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg2/import.d.ts', result '/src/project/node_modules/pkg2/import.d.ts'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
-File '/src/project/node_modules/pkg2/package.json' exists according to earlier cached lookups.
-======== Resolving type reference directive 'pkg4', containing file '/src/project/__inferred type names__.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
+Reusing resolution of type reference directive 'pkg4' from '/src/project/__inferred type names__.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts'.
 File '/src/project/node_modules/@types/pkg4/package.json' does not exist.
-File '/src/project/node_modules/@types/pkg4/index.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/@types/pkg4/index.d.ts', result '/src/project/node_modules/@types/pkg4/index.d.ts'.
-======== Type reference directive 'pkg4' was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts', primary: true. ========
-File '/src/project/node_modules/@types/pkg4/package.json' does not exist according to earlier cached lookups.
 File '/src/project/node_modules/@types/package.json' does not exist.
 File '/src/project/node_modules/package.json' does not exist.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
@@ -4257,7 +4018,7 @@ exitCode:: ExitStatus.Success
 //// [/src/project/randomFileForImport.js] file written with same contents
 //// [/src/project/randomFileForTypeRef.js] file written with same contents
 //// [/src/project/tsconfig.tsbuildinfo]
-{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./randomfileforimport.ts","./node_modules/pkg2/import.d.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true},"fileIdsList":[[2],[4]],"referencedMap":[[3,1],[5,2]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,6,2,4,3,5],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[8,9,10,11,12],"affectingLocations":[13]},{"resolvedTypeReferenceDirective":{"resolvedFileName":4,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":6,"isExternalLibraryImport":true},"failedLookupLocations":[16]}],"names":["pkg0","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3]],"modules":[[7,[1]]],"typeRefs":[[7,[2,3]]]}},"version":"FakeTSVersion"}
+{"program":{"fileNames":["../../lib/lib.d.ts","./node_modules/pkg0/import.d.ts","./randomfileforimport.ts","./node_modules/pkg2/import.d.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./package.json","../package.json","../../package.json","./node_modules/pkg0/import.ts","./node_modules/pkg0/import.tsx","./node_modules/pkg0/package.json","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"769951468-export interface ImportInterface0 {}","impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true,"moduleResolution":3},"fileIdsList":[[2],[4]],"referencedMap":[[3,1],[5,2]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,6,2,4,3,5],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedModule":{"resolvedFileName":2,"isExternalLibraryImport":true,"packageId":{"name":"pkg0","subModuleName":"import.d.ts","version":"0.0.1"}},"failedLookupLocations":[8,9,10,11,12],"affectingLocations":[13]},{"resolvedTypeReferenceDirective":{"resolvedFileName":4,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[14],"affectingLocations":[15]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":6,"isExternalLibraryImport":true},"failedLookupLocations":[16]}],"names":["pkg0","pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2,99],[3,3]],"modules":[[7,[1]]],"typeRefs":[[7,[2,3]]]}},"version":"FakeTSVersion"}
 
 //// [/src/project/tsconfig.tsbuildinfo.readable.baseline.txt]
 {
@@ -4352,7 +4113,8 @@ exitCode:: ExitStatus.Success
     },
     "options": {
       "cacheResolutions": true,
-      "composite": true
+      "composite": true,
+      "moduleResolution": 3
     },
     "referencedMap": {
       "./randomfileforimport.ts": [
@@ -4642,7 +4404,7 @@ exitCode:: ExitStatus.Success
     }
   },
   "version": "FakeTSVersion",
-  "size": 2662
+  "size": 2683
 }
 
 
@@ -4687,24 +4449,10 @@ Directory '/node_modules' does not exist, skipping all lookups in it.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
 File '/src/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
-======== Resolving type reference directive 'pkg2', containing file '/src/project/randomFileForTypeRef.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
-Looking up in 'node_modules' folder, initial location '/src/project'.
+Reusing resolution of type reference directive 'pkg2' from '/src/project/randomFileForTypeRef.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1'.
 Found 'package.json' at '/src/project/node_modules/pkg2/package.json'.
-Matched 'exports' condition 'import'.
-Using 'exports' subpath '.' with target './import.js'.
-File name '/src/project/node_modules/pkg2/import.js' has a '.js' extension - stripping it.
-File '/src/project/node_modules/pkg2/import.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/pkg2/import.d.ts', result '/src/project/node_modules/pkg2/import.d.ts'.
-======== Type reference directive 'pkg2' was successfully resolved to '/src/project/node_modules/pkg2/import.d.ts' with Package ID 'pkg2/import.d.ts@0.0.1', primary: false. ========
-File '/src/project/node_modules/pkg2/package.json' exists according to earlier cached lookups.
-======== Resolving type reference directive 'pkg4', containing file '/src/project/__inferred type names__.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
+Reusing resolution of type reference directive 'pkg4' from '/src/project/__inferred type names__.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts'.
 File '/src/project/node_modules/@types/pkg4/package.json' does not exist.
-File '/src/project/node_modules/@types/pkg4/index.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/@types/pkg4/index.d.ts', result '/src/project/node_modules/@types/pkg4/index.d.ts'.
-======== Type reference directive 'pkg4' was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts', primary: true. ========
-File '/src/project/node_modules/@types/pkg4/package.json' does not exist according to earlier cached lookups.
 File '/src/project/node_modules/@types/package.json' does not exist.
 File '/src/project/node_modules/package.json' does not exist.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
@@ -4739,7 +4487,7 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
 
 //// [/src/project/randomFileForImport.js] file written with same contents
 //// [/src/project/tsconfig.tsbuildinfo]
-{"program":{"fileNames":["../../lib/lib.d.ts","./randomfileforimport.ts","./node_modules/pkg2/import.d.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true},"fileIdsList":[[3]],"referencedMap":[[4,1]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,5,3,[2,[{"file":"./randomfileforimport.ts","start":38,"length":6,"messageText":"Cannot find module 'pkg0' or its corresponding type declarations.","category":1,"code":2307}]],4],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedTypeReferenceDirective":{"resolvedFileName":3,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[7],"affectingLocations":[8]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":5,"isExternalLibraryImport":true},"failedLookupLocations":[9]}],"names":["pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2]],"typeRefs":[[6,[1,2]]]}},"version":"FakeTSVersion"}
+{"program":{"fileNames":["../../lib/lib.d.ts","./randomfileforimport.ts","./node_modules/pkg2/import.d.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./node_modules/@types/pkg2/package.json","./node_modules/pkg2/package.json","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"1714206242-export {};\ndeclare global {\n    interface ImportInterface2 {}\n}\n","affectsGlobalScope":true,"impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true,"moduleResolution":3},"fileIdsList":[[3]],"referencedMap":[[4,1]],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,5,3,[2,[{"file":"./randomfileforimport.ts","start":38,"length":6,"messageText":"Cannot find module 'pkg0' or its corresponding type declarations.","category":1,"code":2307}]],4],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedTypeReferenceDirective":{"resolvedFileName":3,"packageId":{"name":"pkg2","subModuleName":"import.d.ts","version":"0.0.1"},"isExternalLibraryImport":true},"failedLookupLocations":[7],"affectingLocations":[8]},{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":5,"isExternalLibraryImport":true},"failedLookupLocations":[9]}],"names":["pkg2","pkg4"],"resolutionEntries":[[1,1,99],[2,2]],"typeRefs":[[6,[1,2]]]}},"version":"FakeTSVersion"}
 
 //// [/src/project/tsconfig.tsbuildinfo.readable.baseline.txt]
 {
@@ -4815,7 +4563,8 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
     },
     "options": {
       "cacheResolutions": true,
-      "composite": true
+      "composite": true,
+      "moduleResolution": 3
     },
     "referencedMap": {
       "./randomfilefortyperef.ts": [
@@ -5003,7 +4752,7 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
     }
   },
   "version": "FakeTSVersion",
-  "size": 2297
+  "size": 2318
 }
 
 
@@ -5060,13 +4809,8 @@ Saw non-matching condition 'require'.
 Directory '/src/node_modules' does not exist, skipping all lookups in it.
 Directory '/node_modules' does not exist, skipping all lookups in it.
 ======== Type reference directive 'pkg2' was not resolved. ========
-======== Resolving type reference directive 'pkg4', containing file '/src/project/__inferred type names__.ts', root directory '/src/project/node_modules/@types'. ========
-Resolving with primary search path '/src/project/node_modules/@types'.
+Reusing resolution of type reference directive 'pkg4' from '/src/project/__inferred type names__.ts' found in cache from location '/src/project', it was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts'.
 File '/src/project/node_modules/@types/pkg4/package.json' does not exist.
-File '/src/project/node_modules/@types/pkg4/index.d.ts' exist - use it as a name resolution result.
-Resolving real path for '/src/project/node_modules/@types/pkg4/index.d.ts', result '/src/project/node_modules/@types/pkg4/index.d.ts'.
-======== Type reference directive 'pkg4' was successfully resolved to '/src/project/node_modules/@types/pkg4/index.d.ts', primary: true. ========
-File '/src/project/node_modules/@types/pkg4/package.json' does not exist according to earlier cached lookups.
 File '/src/project/node_modules/@types/package.json' does not exist.
 File '/src/project/node_modules/package.json' does not exist.
 File '/src/project/package.json' does not exist according to earlier cached lookups.
@@ -5107,7 +4851,7 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
 //// [/src/project/randomFileForImport.js] file written with same contents
 //// [/src/project/randomFileForTypeRef.js] file written with same contents
 //// [/src/project/tsconfig.tsbuildinfo]
-{"program":{"fileNames":["../../lib/lib.d.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true},"referencedMap":[],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,4,[2,[{"file":"./randomfileforimport.ts","start":38,"length":6,"messageText":"Cannot find module 'pkg0' or its corresponding type declarations.","category":1,"code":2307}]],3],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":4,"isExternalLibraryImport":true},"failedLookupLocations":[6]}],"names":["pkg4"],"resolutionEntries":[[1,1]],"typeRefs":[[5,[1]]]}},"version":"FakeTSVersion"}
+{"program":{"fileNames":["../../lib/lib.d.ts","./randomfileforimport.ts","./randomfilefortyperef.ts","./node_modules/@types/pkg4/index.d.ts","./","./node_modules/@types/pkg4/package.json"],"fileInfos":[{"version":"3858781397-/// <reference no-default-lib=\"true\"/>\ninterface Boolean {}\ninterface Function {}\ninterface CallableFunction {}\ninterface NewableFunction {}\ninterface IArguments {}\ninterface Number { toExponential: any; }\ninterface Object {}\ninterface RegExp {}\ninterface String { charAt: any; }\ninterface Array<T> { length: number; [n: number]: T; }\ninterface ReadonlyArray<T> {}\ndeclare const console: { log(msg: any): void; };","affectsGlobalScope":true,"impliedFormat":1},{"version":"-8633945300-import type { ImportInterface0 } from \"pkg0\" assert { \"resolution-mode\": \"import\" };\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-8191038086-/// <reference types=\"pkg2\" resolution-mode=\"import\"/>\nexport const x = 10;","signature":"-6057683066-export declare const x = 10;\r\n","impliedFormat":1},{"version":"-10726455937-export const x = 10;","impliedFormat":1}],"options":{"cacheResolutions":true,"composite":true,"moduleResolution":3},"referencedMap":[],"exportedModulesMap":[],"semanticDiagnosticsPerFile":[1,4,[2,[{"file":"./randomfileforimport.ts","start":38,"length":6,"messageText":"Cannot find module 'pkg0' or its corresponding type declarations.","category":1,"code":2307}]],3],"latestChangedDtsFile":"./randomFileForTypeRef.d.ts","cacheResolutions":{"resolutions":[{"resolvedTypeReferenceDirective":{"primary":true,"resolvedFileName":4,"isExternalLibraryImport":true},"failedLookupLocations":[6]}],"names":["pkg4"],"resolutionEntries":[[1,1]],"typeRefs":[[5,[1]]]}},"version":"FakeTSVersion"}
 
 //// [/src/project/tsconfig.tsbuildinfo.readable.baseline.txt]
 {
@@ -5164,7 +4908,8 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
     },
     "options": {
       "cacheResolutions": true,
-      "composite": true
+      "composite": true,
+      "moduleResolution": 3
     },
     "referencedMap": {},
     "exportedModulesMap": {},
@@ -5260,6 +5005,6 @@ exitCode:: ExitStatus.DiagnosticsPresent_OutputsGenerated
     }
   },
   "version": "FakeTSVersion",
-  "size": 1785
+  "size": 1806
 }
 
