@@ -217,37 +217,7 @@ File '/a/lib/package.json' does not exist.
 File '/a/package.json' does not exist.
 File '/package.json' does not exist.
 FileWatcher:: Added:: WatchInfo: /a/lib/lib.es2016.full.d.ts 250 undefined Source file
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/package.json 2000 undefined File location affecting resolution
 FileWatcher:: Added:: WatchInfo: /src/projects/project/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/a/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/b/ba/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/b/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/ca/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/ca/caa/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/ca/caa/caaa/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/cb/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/y/z/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/y/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/y/z/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/y/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/x/y/z/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/x/y/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/x/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/package.json 2000 undefined File location affecting resolution
-FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/faaa/package.json 2000 undefined File location affecting resolution
 DirectoryWatcher:: Added:: WatchInfo: /src/projects/project/src/node_modules/@types 1 undefined Type roots
 Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /src/projects/project/src/node_modules/@types 1 undefined Type roots
 [96msrc/fileA.ts[0m:[93m1[0m:[93m21[0m - [91merror[0m[90m TS1479: [0mThe current file is a CommonJS module whose imports will produce 'require' calls; however, the referenced file is an ECMAScript module and cannot be imported with 'require'. Consider writing a dynamic 'import("./fileB.mjs")' call instead.
@@ -395,66 +365,6 @@ Shape signatures in builder refreshed for::
 /src/projects/project/src/f/fa/faa/faaa/randomfile.ts (computed .d.ts during emit)
 
 PolledWatches::
-/src/projects/project/src/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/a/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/ba/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/caaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/cb/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/faaa/package.json:
-  {"pollingInterval":2000}
 /src/projects/project/src/node_modules/@types:
   {"pollingInterval":500}
 
@@ -1359,66 +1269,6 @@ Shape signatures in builder refreshed for::
 /src/projects/project/src/randomfile.ts (computed .d.ts)
 
 PolledWatches::
-/src/projects/project/src/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/a/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/ba/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/caaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/cb/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/faaa/package.json:
-  {"pollingInterval":2000}
 /src/projects/project/src/node_modules/@types:
   {"pollingInterval":500}
 
@@ -2255,66 +2105,6 @@ Shape signatures in builder refreshed for::
 /src/projects/project/src/f/fa/faa/faaa/randomfile.ts (computed .d.ts)
 
 PolledWatches::
-/src/projects/project/src/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/a/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/ba/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/caaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/cb/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/faaa/package.json:
-  {"pollingInterval":2000}
 /src/projects/project/src/node_modules/@types:
   {"pollingInterval":500}
 
@@ -3199,66 +2989,6 @@ Shape signatures in builder refreshed for::
 /src/projects/project/src/f/fa/faa/faaa/randomfile.ts (computed .d.ts)
 
 PolledWatches::
-/src/projects/project/src/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/a/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/ba/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/caaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/cb/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/faaa/package.json:
-  {"pollingInterval":2000}
 /src/projects/project/src/node_modules/@types:
   {"pollingInterval":500}
 
@@ -4187,6 +3917,36 @@ File '/package.json' does not exist according to earlier cached lookups.
 File '/a/lib/package.json' does not exist according to earlier cached lookups.
 File '/a/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/a/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/b/ba/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/b/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/ca/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/ca/caa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/ca/caa/caaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/cb/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/y/z/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/y/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/y/z/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/y/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/x/y/z/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/x/y/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/x/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/faaa/package.json 2000 undefined File location affecting resolution
 [96msrc/fileA.ts[0m:[93m1[0m:[93m21[0m - [91merror[0m[90m TS1479: [0mThe current file is a CommonJS module whose imports will produce 'require' calls; however, the referenced file is an ECMAScript module and cannot be imported with 'require'. Consider writing a dynamic 'import("./fileB.mjs")' call instead.
   To convert this file to an ECMAScript module, change its file extension to '.mts', or add the field `"type": "module"` to '/src/projects/project/package.json'.
 
@@ -4290,6 +4050,8 @@ Semantic diagnostics in builder refreshed for::
 No shapes updated in the builder::
 
 PolledWatches::
+/src/projects/project/src/node_modules/@types:
+  {"pollingInterval":500}
 /src/projects/project/src/package.json:
   {"pollingInterval":2000}
 /src/projects/project/src/a/package.json:
@@ -4350,8 +4112,6 @@ PolledWatches::
   {"pollingInterval":2000}
 /src/projects/project/src/f/fa/faa/faaa/package.json:
   {"pollingInterval":2000}
-/src/projects/project/src/node_modules/@types:
-  {"pollingInterval":500}
 
 FsWatches::
 /src/projects/project/src/tsconfig.json:
@@ -4627,6 +4387,36 @@ File '/src/projects/project/package.json' exists according to earlier cached loo
 File '/a/lib/package.json' does not exist according to earlier cached lookups.
 File '/a/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/a/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/b/ba/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/b/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/c/ca/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/c/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/c/ca/caa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/c/ca/caa/caaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/c/cb/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/y/z/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/y/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/d/da/daa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/d/da/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/d/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/e/ea/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/e/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/e/ea/eaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/y/z/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/y/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/f/fa/faa/x/y/z/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/f/fa/faa/x/y/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/f/fa/faa/x/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/f/fa/faa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/f/fa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/f/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Close:: WatchInfo: /src/projects/project/src/f/fa/faa/faaa/package.json 2000 undefined File location affecting resolution
 ../../../a/lib/lib.es2016.full.d.ts
   Default library for target 'es2016'
 src/fileB.mts
@@ -4762,66 +4552,6 @@ Shape signatures in builder refreshed for::
 /src/projects/project/src/f/fa/faa/faaa/randomfile.ts (computed .d.ts)
 
 PolledWatches::
-/src/projects/project/src/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/a/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/ba/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/b/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/ca/caa/caaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/c/cb/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/daaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/daa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/da/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/d/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/e/ea/eaa/eaaa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/z/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/y/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/x/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/package.json:
-  {"pollingInterval":2000}
-/src/projects/project/src/f/fa/faa/faaa/package.json:
-  {"pollingInterval":2000}
 /src/projects/project/src/node_modules/@types:
   {"pollingInterval":500}
 
@@ -5677,6 +5407,36 @@ File '/package.json' does not exist according to earlier cached lookups.
 File '/a/lib/package.json' does not exist according to earlier cached lookups.
 File '/a/package.json' does not exist according to earlier cached lookups.
 File '/package.json' does not exist according to earlier cached lookups.
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/a/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/b/ba/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/b/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/ca/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/ca/caa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/ca/caa/caaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/c/cb/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/y/z/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/y/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/x/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/daaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/daa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/da/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/d/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/y/z/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/y/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/e/ea/eaa/eaaa/x/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/x/y/z/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/x/y/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/x/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Added:: WatchInfo: /src/projects/project/src/f/fa/faa/faaa/package.json 2000 undefined File location affecting resolution
 [96msrc/fileA.ts[0m:[93m1[0m:[93m21[0m - [91merror[0m[90m TS1479: [0mThe current file is a CommonJS module whose imports will produce 'require' calls; however, the referenced file is an ECMAScript module and cannot be imported with 'require'. Consider writing a dynamic 'import("./fileB.mjs")' call instead.
   To convert this file to an ECMAScript module, change its file extension to '.mts' or create a local package.json file with `{ "type": "module" }`.
 
@@ -5818,6 +5578,8 @@ Shape signatures in builder refreshed for::
 /src/projects/project/src/f/fa/faa/faaa/randomfile.ts (computed .d.ts)
 
 PolledWatches::
+/src/projects/project/src/node_modules/@types:
+  {"pollingInterval":500}
 /src/projects/project/src/package.json:
   {"pollingInterval":2000}
 /src/projects/project/src/a/package.json:
@@ -5878,8 +5640,6 @@ PolledWatches::
   {"pollingInterval":2000}
 /src/projects/project/src/f/fa/faa/faaa/package.json:
   {"pollingInterval":2000}
-/src/projects/project/src/node_modules/@types:
-  {"pollingInterval":500}
 
 FsWatches::
 /src/projects/project/src/tsconfig.json:
