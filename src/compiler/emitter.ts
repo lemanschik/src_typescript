@@ -2474,8 +2474,7 @@ export function createPrinter(printerOptions: PrinterOptions = {}, handlers: Pri
     //
 
     function emitPrivateIdentifier(node: PrivateIdentifier) {
-        const writeText = node.symbol ? writeSymbol : write;
-        writeText(getTextOfNode(node, /*includeTrivia*/ false), node.symbol);
+        write(getTextOfNode(node, /*includeTrivia*/ false));
     }
 
 
