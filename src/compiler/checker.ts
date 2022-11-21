@@ -54,6 +54,7 @@ import {
     canHaveIllegalDecorators,
     canHaveIllegalModifiers,
     canHaveJSDoc,
+    canHaveLocals,
     canHaveModifiers,
     canHaveSymbol,
     cartesianProduct,
@@ -358,6 +359,7 @@ import {
     hasJSDocNodes,
     hasJSDocParameterTags,
     hasJsonModuleEmitEnabled,
+    HasLocals,
     HasModifiers,
     hasOnlyExpressionInitializer,
     hasOverrideModifier,
@@ -2912,7 +2914,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
                 return undefined;
             }
             // Locals of a source file are not in scope (because they get merged into the global symbol table)
-            if (location.locals && !isGlobalSourceFile(location)) {
+            if (canHaveLocals(location) && location.locals && !isGlobalSourceFile(location)) {
                 if (result = lookup(location.locals, name, meaning)) {
                     let useResult = true;
                     if (isFunctionLike(location) && lastLocation && lastLocation !== (location as FunctionLikeDeclaration).body) {
@@ -4084,7 +4086,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
     }
 
     function reportNonExportedMember(node: Node, name: Identifier, declarationName: string, moduleSymbol: Symbol, moduleName: string): void {
-        const localSymbol = moduleSymbol.valueDeclaration?.locals?.get(name.escapedText);
+        const localSymbol = tryCast(moduleSymbol.valueDeclaration, canHaveLocals)?.locals?.get(name.escapedText);
         const exports = moduleSymbol.exports;
         if (localSymbol) {
             const exportedEqualsSymbol = exports?.get(InternalSymbolName.ExportEquals);
@@ -5481,7 +5483,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
         let result: T;
         for (let location = enclosingDeclaration; location; location = location.parent) {
             // Locals of a source file are not in scope (because they get merged into the global symbol table)
-            if (location.locals && !isGlobalSourceFile(location)) {
+            if (canHaveLocals(location) && location.locals && !isGlobalSourceFile(location)) {
                 if (result = callback(location.locals, /*ignoreQualification*/ undefined, /*isLocalNameLookup*/ true, location)) {
                     return result;
                 }
@@ -39036,7 +39038,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
             (isVariableDeclaration(declaration) && isForInOrOfStatement(declaration.parent.parent) || isImportedDeclaration(declaration)) && isIdentifierThatStartsWithUnderscore(declaration.name!);
     }
 
-    function checkUnusedLocalsAndParameters(nodeWithLocals: Node, addDiagnostic: AddUnusedDiagnostic): void {
+    function checkUnusedLocalsAndParameters(nodeWithLocals: HasLocals, addDiagnostic: AddUnusedDiagnostic): void {
         // Ideally we could use the ImportClause directly as a key, but must wait until we have full ES6 maps. So must store key along with value.
         const unusedImports = new Map<string, [ImportClause, ImportedDeclaration[]]>();
         const unusedDestructures = new Map<string, [BindingPattern, BindingElement[]]>();
@@ -43622,7 +43624,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
 
         function populateSymbols() {
             while (location) {
-                if (location.locals && !isGlobalSourceFile(location)) {
+                if (canHaveLocals(location) && location.locals && !isGlobalSourceFile(location)) {
                     copySymbols(location.locals, meaning);
                 }
 
