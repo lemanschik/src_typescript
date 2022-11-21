@@ -51,6 +51,7 @@ import {
     CancellationToken,
     canHaveDecorators,
     canHaveExportModifier,
+    canHaveFlowNode,
     canHaveIllegalDecorators,
     canHaveIllegalModifiers,
     canHaveJSDoc,
@@ -10010,7 +10011,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
 
     function getSyntheticElementAccess(node: BindingElement | PropertyAssignment | ShorthandPropertyAssignment | Expression): ElementAccessExpression | undefined {
         const parentAccess = getParentElementAccess(node);
-        if (parentAccess && parentAccess.flowNode) {
+        if (parentAccess && canHaveFlowNode(parentAccess) && parentAccess.flowNode) {
             const propName = getDestructuringPropertyName(node);
             if (propName) {
                 const literal = setTextRange(parseNodeFactory.createStringLiteral(propName), node);
@@ -25781,7 +25782,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
         return false;
     }
 
-    function getFlowTypeOfReference(reference: Node, declaredType: Type, initialType = declaredType, flowContainer?: Node, flowNode = reference.flowNode) {
+    function getFlowTypeOfReference(reference: Node, declaredType: Type, initialType = declaredType, flowContainer?: Node, flowNode = tryCast(reference, canHaveFlowNode)?.flowNode) {
         let key: string | undefined;
         let isKeySet = false;
         let flowDepth = 0;
@@ -27518,7 +27519,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
         // If a containing class does not have extends clause or the class extends null
         // skip checking whether super statement is called before "this" accessing.
         if (baseTypeNode && !classDeclarationExtendsNull(containingClassDecl)) {
-            if (node.flowNode && !isPostSuperFlowNode(node.flowNode, /*noCacheCheck*/ false)) {
+            if (canHaveFlowNode(node) && node.flowNode && !isPostSuperFlowNode(node.flowNode, /*noCacheCheck*/ false)) {
                 error(node, diagnosticMessage);
             }
         }
@@ -43107,7 +43108,7 @@ export function createTypeChecker(host: TypeCheckerHost): TypeChecker {
                     cancellationToken.throwIfCancellationRequested();
             }
         }
-        if (kind >= SyntaxKind.FirstStatement && kind <= SyntaxKind.LastStatement && node.flowNode && !isReachableFlowNode(node.flowNode)) {
+        if (kind >= SyntaxKind.FirstStatement && kind <= SyntaxKind.LastStatement && canHaveFlowNode(node) && node.flowNode && !isReachableFlowNode(node.flowNode)) {
             errorOrSuggestion(compilerOptions.allowUnreachableCode === false, node, Diagnostics.Unreachable_code_detected);
         }
 

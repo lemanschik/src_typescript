@@ -194,6 +194,7 @@ import {
     getTrailingCommentRanges,
     HasExpressionInitializer,
     hasExtension,
+    HasFlowNode,
     hasInitializer,
     HasInitializer,
     HasJSDoc,
@@ -2264,7 +2265,7 @@ export function isObjectLiteralMethod(node: Node): node is MethodDeclaration {
 }
 
 /** @internal */
-export function isObjectLiteralOrClassExpressionMethodOrAccessor(node: Node): node is MethodDeclaration {
+export function isObjectLiteralOrClassExpressionMethodOrAccessor(node: Node): node is MethodDeclaration | AccessorDeclaration {
     return (node.kind === SyntaxKind.MethodDeclaration || node.kind === SyntaxKind.GetAccessor || node.kind === SyntaxKind.SetAccessor) &&
         (node.parent.kind === SyntaxKind.ObjectLiteralExpression ||
             node.parent.kind === SyntaxKind.ClassExpression);
@@ -3600,6 +3601,32 @@ function getNestedModuleDeclaration(node: Node): Node | undefined {
         node.body.kind === SyntaxKind.ModuleDeclaration
         ? node.body
         : undefined;
+}
+
+/** @internal */
+export function canHaveFlowNode(node: Node): node is HasFlowNode {
+    if (node.kind >= SyntaxKind.FirstStatement && node.kind <= SyntaxKind.LastStatement) {
+        return true;
+    }
+
+    switch (node.kind) {
+        case SyntaxKind.Identifier:
+        case SyntaxKind.ThisKeyword:
+        case SyntaxKind.SuperKeyword:
+        case SyntaxKind.QualifiedName:
+        case SyntaxKind.MetaProperty:
+        case SyntaxKind.ElementAccessExpression:
+        case SyntaxKind.PropertyAccessExpression:
+        case SyntaxKind.BindingElement:
+        case SyntaxKind.FunctionExpression:
+        case SyntaxKind.ArrowFunction:
+        case SyntaxKind.MethodDeclaration:
+        case SyntaxKind.GetAccessor:
+        case SyntaxKind.SetAccessor:
+            return true;
+        default:
+            return false;
+    }
 }
 
 /** @internal */
@@ -7273,7 +7300,7 @@ function Identifier(this: Mutable<Node>, kind: SyntaxKind, pos: number, end: num
     this.transformFlags = TransformFlags.None;
     this.parent = undefined!;
     this.original = undefined;
-    this.flowNode = undefined;
+    (this as Identifier).flowNode = undefined;
 }
 
 function SourceMapSource(this: SourceMapSource, fileName: string, text: string, skipTrivia?: (pos: number) => number) {
