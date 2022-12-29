@@ -1,0 +1,21 @@
+{
+  "name": "typescript-src",
+  "version": "0.0.0-pre.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha rollup.config.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  }
+}
