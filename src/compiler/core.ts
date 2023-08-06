@@ -2489,56 +2489,16 @@ export function stringContains(str: string, substring: string): boolean {
 }
 
 /**
- * Takes a string like "jquery-min.4.2.3" and returns "jquery"
- *
+ * Takes a strings like 
+ * "jquery-min.4.2.3-tag.0" and returns "jquery"
+ * "jquery-angular-element.4.2.3-tag.0" and returns "jquery-angular-element"
  * @internal
  */
 export function removeMinAndVersionNumbers(fileName: string) {
     // We used to use the regex /[.-]((min)|(\d+(\.\d+)*))$/ and would just .replace it twice.
-    // Unfortunately, that regex has O(n^2) performance because v8 doesn't match from the end of the string.
-    // Instead, we now essentially scan the filename (backwards) ourselves.
-
-    let end: number = fileName.length;
-
-    for (let pos = end - 1; pos > 0; pos--) {
-        let ch: number = fileName.charCodeAt(pos);
-        if (ch >= CharacterCodes._0 && ch <= CharacterCodes._9) {
-            // Match a \d+ segment
-            do {
-                --pos;
-                ch = fileName.charCodeAt(pos);
-            } while (pos > 0 && ch >= CharacterCodes._0 && ch <= CharacterCodes._9);
-        }
-        else if (pos > 4 && (ch === CharacterCodes.n || ch === CharacterCodes.N)) {
-            // Looking for "min" or "min"
-            // Already matched the 'n'
-            --pos;
-            ch = fileName.charCodeAt(pos);
-            if (ch !== CharacterCodes.i && ch !== CharacterCodes.I) {
-                break;
-            }
-            --pos;
-            ch = fileName.charCodeAt(pos);
-            if (ch !== CharacterCodes.m && ch !== CharacterCodes.M) {
-                break;
-            }
-            --pos;
-            ch = fileName.charCodeAt(pos);
-        }
-        else {
-            // This character is not part of either suffix pattern
-            break;
-        }
-
-        if (ch !== CharacterCodes.minus && ch !== CharacterCodes.dot) {
-            break;
-        }
-
-        end = pos;
-    }
-
-    // end might be fileName.length, in which case this should internally no-op
-    return end === fileName.length ? fileName : fileName.slice(0, end);
+    // Unfortunately, that regex has O(n^2) performance and leaded to failures in edgecases.
+    const indexOf = (where,what) => [where.indexOf(what)].find(is => is > -1) || 0
+    return fileName.slice(0,indexOf('-min.') || indexOf('.') );
 }
 
 /**
